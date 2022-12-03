@@ -272,69 +272,67 @@ html{
     right: -15px;
     font-size: 14px;
 }
-.skills .skill .javascript{
+.skills .skill .python{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s python forwards;
 }
-@keyframes javascript {
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.skills .skill .django{
+    width: 0%;
+    animation: 2s django forwards;
+}
+@keyframes django {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+
+.skills .skill .flask{
+    width: 0%;
+    animation: 2s flask forwards;
+}
+@keyframes flask {
     0%{width: 0%;}
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
-}
 
-.skills .skill .photoshop{
+.skills .skill .html{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s html forwards;
 }
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
-}
-
-.skills .skill .comunicacion{
-    width: 0%;
-    animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
+@keyframes html {
     0%{width: 0%;}
     100%{width: 80%;}
 }
 
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+.skills .skill .comunicación{
+    width: 0%;
+    animation: 2s comunicación forwards;
+}
+@keyframes comunicación {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
 .skills .skill .trabajo{
     width: 0%;
     animation: 2s trabajo forwards;
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 95%;}
 }
-
 .skills .skill .creatividad{
     width: 0%;
     animation: 2s creatividad forwards;
@@ -343,24 +341,26 @@ html{
     0%{width: 0%;}
     100%{width: 99%;}
 }
-
-.skills .skill .dedicacion{
+.skills .skill .dedicación{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s dedicación forwards;
 }
-@keyframes dedicacion {
+@keyframes dedicación {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 90%;}
 }
-
 .skills .skill .proyect{
     width: 0%;
     animation: 2s proyect forwards;
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
 }
+
+
+
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
