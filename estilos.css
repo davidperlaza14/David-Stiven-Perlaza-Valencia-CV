@@ -198,6 +198,12 @@ html{
     position: relative;
     z-index: 10;
 }
+.sobremi button a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+   
+}
 .sobremi button .overlay{
     position: absolute;
     top: 0;
