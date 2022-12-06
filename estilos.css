@@ -280,7 +280,7 @@ html{
 }
 .skills .skill .python{
     width: 0%;
-    animation: 5s python forwards;
+    animation: 10s python forwards;
 }
 @keyframes python {
     0%{width: 0%;}
@@ -288,7 +288,7 @@ html{
 }
 .skills .skill .django{
     width: 0%;
-    animation: 5s django forwards;
+    animation: 10s django forwards;
 }
 @keyframes django {
     0%{width: 0%;}
@@ -298,7 +298,7 @@ html{
 
 .skills .skill .flask{
     width: 0%;
-    animation: 5s flask forwards;
+    animation: 10s flask forwards;
 }
 @keyframes flask {
     0%{width: 0%;}
@@ -308,7 +308,7 @@ html{
 
 .skills .skill .html{
     width: 0%;
-    animation: 5s html forwards;
+    animation: 10s html forwards;
 }
 @keyframes html {
     0%{width: 0%;}
@@ -317,7 +317,7 @@ html{
 
 .skills .skill .css{
     width: 0%;
-    animation: 5s css forwards;
+    animation: 10s css forwards;
 }
 @keyframes css {
     0%{width: 0%;}
@@ -325,7 +325,7 @@ html{
 }
 .skills .skill .comunicación{
     width: 0%;
-    animation: 5s comunicación forwards;
+    animation: 10s comunicación forwards;
 }
 @keyframes comunicación {
     0%{width: 0%;}
@@ -333,7 +333,7 @@ html{
 }
 .skills .skill .trabajo{
     width: 0%;
-    animation: 5s trabajo forwards;
+    animation: 10s trabajo forwards;
 }
 @keyframes trabajo {
     0%{width: 0%;}
@@ -341,7 +341,7 @@ html{
 }
 .skills .skill .creatividad{
     width: 0%;
-    animation: 5s creatividad forwards;
+    animation: 10s creatividad forwards;
 }
 @keyframes creatividad {
     0%{width: 0%;}
@@ -349,7 +349,7 @@ html{
 }
 .skills .skill .dedicación{
     width: 0%;
-    animation: 5s dedicación forwards;
+    animation: 10s dedicación forwards;
 }
 @keyframes dedicación {
     0%{width: 0%;}
@@ -357,7 +357,7 @@ html{
 }
 .skills .skill .proyect{
     width: 0%;
-    animation: 5s proyect forwards;
+    animation: 10s proyect forwards;
 }
 @keyframes proyect {
     0%{width: 0%;}
