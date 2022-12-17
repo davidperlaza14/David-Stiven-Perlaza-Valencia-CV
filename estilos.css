@@ -473,6 +473,10 @@ html{
     position: relative;
     bottom: 4px;
 }
+.curriculum .derecha .der h4 a{
+    color: #fff;
+    text-decoration: none;
+}
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
@@ -506,6 +510,10 @@ html{
     width: 300px;
     display: block;
 }
+/* .portfolio .galeria .proyecto img{
+    width: 300px;
+    display: block;
+} */
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
@@ -552,46 +560,13 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     position: relative;
+    display: flex;
+    
 }
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
-    font-size: 18px;
-}
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto ;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
-}
-.contacto button:hover .overlay{
-    width: 100%;
-}
+
 .contacto .col img{
     width: 100%;
 }
@@ -650,7 +625,7 @@ footer .arriba{
     background-color: #1CB698;
     color: #fff;
     position: absolute;
-    left: 50%;
+    left: 48%;
     transform: translateX(-50);
     top: 0px;
     border-radius: 50%;
