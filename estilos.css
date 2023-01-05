@@ -73,12 +73,13 @@ html{
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
+    margin-top: 10px;
     border: 10px solid #1CB698;
     display: block;
-    width: 60%;
+    width: 45%;
     margin: auto;
     border-radius: 100%;
 }
